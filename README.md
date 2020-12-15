@@ -8,6 +8,6 @@ For each resource, for each tag Key and Value, we need to ensure it is:
 
 ## Usage
 
-*./loop.sh <aws-region-name> [-fix]*
+*./loop.sh aws-region-name [-fix]*
 
 
