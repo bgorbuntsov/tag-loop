@@ -102,3 +102,6 @@ else
   fi
 fi
 
+if [ -f "$filename" ] ; then
+  rm -f "$filename"
+fi
