@@ -10,7 +10,7 @@ function extractTags {
   fi
   echo ""
   echo "               --== $1 ==--"
-  echo -e "\nListing Instances in '$1' region..."
+  echo -e "\nListing Resources in '$1' region..."
   aws resourcegroupstaggingapi get-resources --region $1 > $filename
   count=`jq -r '.ResourceTagMappingList[].ResourceARN' $filename | wc -l`
   if [ $count -eq 0 ]; then 
