@@ -17,4 +17,7 @@ For each resource, for each tag Key and Value, we need to ensure it is:
 
 *./loop.sh aws-region-name [-fix]*
 
+Running without parameters causes walk through all available regions.
+
+
 
